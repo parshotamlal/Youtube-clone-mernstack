@@ -105,3 +105,41 @@ youtube-clone-internshala/
 └── README.md                         # Documentation
 
 
+
+🛠️ Technologies Used
+
+Frontend: React.js (Vite), React Router, Redux Toolkit, Axios, Tailwind/CSS, Supabase (optional).
+Backend: Node.js, Express.js, MongoDB (Mongoose), JWT, dotenv.
+
+⚙️ Installation & Setup
+1️⃣ Clone Repository
+git clone https://github.com/parshotamlal/youtube-clone-internshala.git
+cd youtube-clone-internshala
+
+2️⃣ Setup Backend
+cd youtubeBackend
+npm install
+
+
+Create a .env file:
+
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+
+
+Run backend:
+
+npm start
+
+3️⃣ Setup Frontend
+cd ../frontend
+npm install
+npm run dev
+
+🌍 Deployment
+
+Backend: Render / Railway / Vercel (serverless).
+
+Frontend: Vercel / Netlify.
+
