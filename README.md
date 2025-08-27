@@ -137,9 +137,40 @@ cd ../frontend
 npm install
 npm run dev
 
+
+
+🔑 Create a .env file in frontend/ and add:
+
+# 🌍 Backend API Base URL
+VITE_BASE_URL="https://youtube-clone-mern-1-f4oj.onrender.com/"
+
+# 🔑 Supabase Configuration
+VITE_SUPABASE_URL="https://uaqybsttddfdnvqgyape.supabase.co"
+VITE_SUPABASE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVhcXlic3R0ZGRmZG52cWd5YXBlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTYwODMyMjcsImV4cCI6MjA3MTY1OTIyN30._h6r5ZGKcazFriujhGJFnoxqDjTluZIhFIqxo5OUbyk"
+
+
+Run frontend:
+
+npm run dev
+
+📦 Tech Stack
+
+Frontend: React, React Router, Redux, Axios, TailwindCSS
+
+Backend: Node.js, Express.js, MongoDB, JWT
+
+Database: MongoDB Atlas
+
+Storage: Supabase
+
+Version Control: Git + GitHub
+
+Deployment: Vercel (Frontend), Render (Backend)
+
 🌍 Deployment
 
 Backend: Render / Railway / Vercel (serverless).
 
-Frontend: Vercel / Netlify.
+Frontend: local
+
 
